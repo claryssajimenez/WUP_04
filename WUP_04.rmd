@@ -55,6 +55,14 @@ This box plot shows the average score of the WORDSUM test based on the different
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(WORDSUM~DEGREE,data=GSS)
+```
+
+These numerical results show the median WORDSUM test scrore for Bachelor's degree is 10, Graduate's degree is 11, High school diploma is 9, Junior college degree is 10, and LT High school is 8.  
+
+
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
