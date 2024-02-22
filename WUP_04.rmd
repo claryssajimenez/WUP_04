@@ -74,9 +74,15 @@ summary.aov(model1)
 
 Since the categorical variable, DEGREE, has more than 2 levels, I used the anova. 
 
-This show that the p-value is < 0.000236 which is < 0.05
+This show that the p-value is 0.000236 showing low evidence that there is a difference.  
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+There is no difference between the average score on the WORDSUM test and level of schooling DEGREE due to the p-value is 0.000236, which is <than 0.05, therefore we reject the null hypothesis. 
+
+
+
+
